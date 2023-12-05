@@ -23,3 +23,12 @@ section{
     scroll-snap-align: center ;
 }
 
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px; 
+    }
+
+    section {
+        height: auto; 
+    }
+}
